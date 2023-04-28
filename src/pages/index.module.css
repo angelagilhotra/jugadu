@@ -4,7 +4,7 @@
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background-image: linear-gradient(to bottom, #2e026d, #15162c);
+  background-image: linear-gradient(to bottom, #212A3E, #394867);
 }
 
 .container {
@@ -56,6 +56,11 @@
   color: white;
 }
 
+.subtitle {
+  font-size: 2rem;
+  color: white;
+}
+
 @media (min-width: 640px) {
   .title {
     font-size: 5rem;
@@ -63,7 +68,11 @@
 }
 
 .pinkSpan {
-  color: hsl(280 100% 70%);
+  color: #FFD3B0;
+}
+
+.emphasize {
+  font-style: italic;
 }
 
 .cardRow {
