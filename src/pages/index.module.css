@@ -81,6 +81,10 @@
   gap: 1rem;
 }
 
+.whiteText {
+  color: white;
+}
+
 @media (min-width: 640px) {
   .cardRow {
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -91,6 +95,10 @@
   .cardRow {
     gap: 2rem;
   }
+}
+
+.link {
+  text-decoration: underline;
 }
 
 .card {
