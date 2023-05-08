@@ -16,7 +16,7 @@ const Home: NextPage = () => {
             build <span className={styles.pinkSpan}>jugadu</span>
           </h1>
           <div className={styles.subtitle}>
-            creating nifty little apps, that <span className={styles.emphasize}>just work</span>
+            building apps that <span className={styles.emphasize}>don&apos;t</span> scale
           </div>
           <div className={styles.whiteText}><a href="https://twitter.com/buildjugadu" className={styles.link}>twitter</a>; <a href="mailto:hello@jugadu.co" className={styles.link}>email</a></div>
         </div>
